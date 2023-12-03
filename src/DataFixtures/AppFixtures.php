@@ -17,10 +17,8 @@ class AppFixtures extends Fixture
         $mix->setGenre($genres[array_rand($genres)]);
         $mix->setTrackCount(rand(5, 20));
         $mix->setVotes(rand(-50, 50));
-        
         $manager->persist($mix);
 
         $manager->flush();
     }
-
 }
