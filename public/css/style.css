@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Navigation */
+.navbar {
+    background-color: #27333A;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+}
+
+.nav-link {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.dropdown-toggle {
+    font-size: 40px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+}
+
+.dropdown-menu {
+    background-color: #27333A;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+/* Alerts */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Footer */
+footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.fab.fa-github {
+    color: #6c757d;
+}

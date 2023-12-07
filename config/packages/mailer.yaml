@@ -1,0 +1,3 @@
+framework:
+    mailer:
+        dsn: 'smtp://rahimbennejma50@gmail.com:rfidjrwfzqjeybue@smtp.gmail.com:587?encryption=tls'
